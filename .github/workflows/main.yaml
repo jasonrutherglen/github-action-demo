@@ -15,4 +15,8 @@ jobs:
 
       - name: Say Hello to the World
         run: echo "Hello, World!"
+      - name: Setup Certificate and Key
+        run: |
+          echo "${{ secrets.PRIVATE_KEY }}" > private.key
+          echo "${{ secrets.CERTIFICATE }}" > certificate.pem
 
