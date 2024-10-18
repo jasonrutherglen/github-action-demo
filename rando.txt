@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 hello
+=======
+randonaut
+>>>>>>> a3a5aac (added rando.txt)
